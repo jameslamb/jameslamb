@@ -10,7 +10,7 @@ I'm James, a data scientist / engineer from Chicago. My time on GitHub is mostly
 
 * [doppel-cli](https://github.com/jameslamb/doppel-cli): a command-line tool for checking if an R and Python library have the same interface
 * [LightGBM](https://github.com/microsoft/LightGBM): a lightweight gradient boosting machine
-* [pkgnet](https://github.com/uptake/pkgnet): R package for analyzing and R package's dependencies
+* [pkgnet](https://github.com/uptake/pkgnet): R package for analyzing an R package's dependencies
 * [uptasticsearch](https://github.com/uptake/uptasticsearch): an R data frame client for Elasticsearch
 
 #### ✋ open source stuff I've been making little contributions on
