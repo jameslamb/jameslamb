@@ -11,6 +11,7 @@ I'm James, a data scientist / engineer from Chicago. My time on GitHub is mostly
 * [doppel-cli](https://github.com/jameslamb/doppel-cli): a command-line tool for checking if an R and Python library have the same interface
 * [LightGBM](https://github.com/microsoft/LightGBM): a lightweight gradient boosting machine
 * [pkgnet](https://github.com/uptake/pkgnet): R package for analyzing an R package's dependencies
+* [prefect-saturn](https://github.com/saturncloud/prefect-saturn): Python client for runing [Prefect](https://github.com/PrefectHQ/prefect) flows on a Saturn Cloud Dask cluster
 * [uptasticsearch](https://github.com/uptake/uptasticsearch): an R data frame client for Elasticsearch
 
 #### ✋ open source stuff I've been making little contributions on
