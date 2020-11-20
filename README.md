@@ -24,6 +24,9 @@ I'm James, a data scientist / engineer from Chicago. My time on GitHub is mostly
 * software engineer at [Saturn Cloud](https://www.saturncloud.io/), where we're building "Databricks for Dask"
 * adjunct instructor at Marquette University, where I teach "Intro to R Programming"
 
+#### :computer: conference talks
+
+I've given talks on Dask, LightGBM, R, and other random stuff. For a full list and links to videos, see https://github.com/jameslamb/talks#gallery.
 
 #### :microphone: talk to me!
 
@@ -31,4 +34,3 @@ My DMs are open if you want to talk about open source, data science careers, *Je
 
 * :bird: Twitter: https://twitter.com/_jameslamb
 * :link: LinkedIn: https://www.linkedin.com/in/jameslamb1/
-
