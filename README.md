@@ -1,6 +1,6 @@
 ### oh hey! 👋
 
-I'm James, a data scientist / engineer from Chicago. My time on GitHub is mostly spent writing Python, R, and disgusting shell scripts on projects for data scientists and data engineers. My time off GitHub is spent listening to hip hop and watching reality TV.
+I'm James, a data scientist / engineer from Chicago. My time on GitHub is mostly spent writing Python, R, and disgusting shell scripts on projects for data scientists and data engineers. My time off GitHub is spent at hip hop shows and watching reality TV.
 
 <p align="center">
   <img src="https://media.giphy.com/media/26DMYwkCwa8G8xGcU/giphy.gif">
