@@ -70,7 +70,7 @@ The pull requests below were chosen to showcase the types of software work I've 
 
 #### 💰 things I do for money
 
-* software engineer at [Saturn Cloud](https://www.saturncloud.io/), where we're building "Databricks for Dask"
+* machine learning engineer at [SpotHero](https://spothero.com/)
 * adjunct instructor at Marquette University, where I teach "Intro to R Programming"
 
 #### :computer: conference talks
