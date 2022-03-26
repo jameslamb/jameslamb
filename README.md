@@ -11,11 +11,11 @@ I'm James, a data scientist / engineer from Chicago. My time on GitHub is mostly
 * [doppel-cli](https://github.com/jameslamb/doppel-cli): a command-line tool for checking if an R and Python library have the same interface
 * [LightGBM](https://github.com/microsoft/LightGBM): a lightweight gradient boosting machine
 * [pkgnet](https://github.com/uptake/pkgnet): R package for analyzing an R package's dependencies
-* [prefect-saturn](https://github.com/saturncloud/prefect-saturn): Python client for runing [Prefect](https://github.com/PrefectHQ/prefect) flows on a Saturn Cloud Dask cluster
 * [uptasticsearch](https://github.com/uptake/uptasticsearch): an R data frame client for Elasticsearch
 
 #### ✋ open source stuff I've been making little contributions on
 
+* [hamilton](https://github.com/stitchfix/hamilton): a "micro-framework" for feature engineering in Python
 * [prefect](https://github.com/PrefectHQ/prefect): a workflow management thing in Python that plays nicely with Dask
 * [xgboost](https://github.com/dmlc/xgboost): another gradient boosting machine
 
@@ -46,6 +46,7 @@ The pull requests below were chosen to showcase the types of software work I've 
 
 #### Bug Fixes
 
+* fix `jupyter_server` conda-forge feedstock recipe to prevent broken environments: https://github.com/conda-forge/jupyter_server-feedstock/pull/84
 * make multioutput behavior of `dask-ml` regression metrics consistent with `scikit-learn`: https://github.com/dask/dask-ml/pull/820
 * fix saving Dask Random Forest models in `cuml`: https://github.com/rapidsai/cuml/pull/3388
 * fix checks for availability of `mm_malloc` in `{lightgbm}` autoconf-based builds: https://github.com/microsoft/LightGBM/pull/3510
