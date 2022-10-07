@@ -47,6 +47,7 @@ The pull requests below were chosen to showcase the types of software work I've 
 
 #### Bug Fixes
 
+* prevent `conda` from "downgrading" Python from CPython to PyPy, while also reducing the risk of a subtle networking error made worse by unpredictability in when Dask garbage collects objects (https://github.com/microsoft/LightGBM/pull/5510)
 * create a reproducible example for `lightgbm` loading failing with `GLIBCXX` compatibility errors: https://github.com/microsoft/LightGBM/issues/5106#issuecomment-1121925896
 * fix `jupyter_server` conda-forge feedstock recipe to prevent broken environments: https://github.com/conda-forge/jupyter_server-feedstock/pull/84
 * make multioutput behavior of `dask-ml` regression metrics consistent with `scikit-learn`: https://github.com/dask/dask-ml/pull/820
