@@ -87,3 +87,4 @@ My DMs are open if you want to talk about open source, data science careers, *Je
 
 * :bird: Twitter: https://twitter.com/_jameslamb
 * :link: LinkedIn: https://www.linkedin.com/in/jameslamb1/
+* 🐘 <a rel="me" href="https://hachyderm.io/@_jameslamb">Mastodon</a>
