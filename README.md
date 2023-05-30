@@ -14,7 +14,7 @@ I'm James, a data scientist / engineer from Chicago. My time on GitHub is mostly
 * [pydistcheck](https://github.com/jameslamb/pydistcheck): linter that finds portability issues in Python package distributions (wheels and sdists)
 * [uptasticsearch](https://github.com/uptake/uptasticsearch): an R data frame client for Elasticsearch
 
-#### ✋ open source stuff I've been making little contributions on
+#### ✋ some other open source stuff I've contributed on in the past
 
 * [hamilton](https://github.com/stitchfix/hamilton): a "micro-framework" for feature engineering in Python
 * [prefect](https://github.com/PrefectHQ/prefect): a workflow management thing in Python that plays nicely with Dask
