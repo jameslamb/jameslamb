@@ -1,33 +1,34 @@
 ### oh hey! 👋
 
-I'm James, a data scientist / engineer from Chicago. My time on GitHub is mostly spent writing Python, R, and disgusting shell scripts on projects for data scientists and data engineers. My time off GitHub is spent at hip hop shows and watching reality TV.
+I'm James, an engineer / data scientist from Chicago. My time on GitHub is mostly spent writing Python, R, and shell scripts on projects for data scientists and data engineers. My time off GitHub is spent with family, at hip hop shows, and watching reality TV.
 
 <p align="center">
-  <img src="https://media.giphy.com/media/26DMYwkCwa8G8xGcU/giphy.gif">
+  <img src="https://media.giphy.com/media/XNOZZ2RxYdCNi/giphy.gif">
 </p>
 
 #### :shipit: open source stuff I'm maintaining
 
-* [doppel-cli](https://github.com/jameslamb/doppel-cli): a command-line tool for checking if an R and Python library have the same interface
 * [LightGBM](https://github.com/microsoft/LightGBM): a lightweight gradient boosting machine
+* [lightgbm-dask-testing](https://github.com/jameslamb/lightgbm-dask-testing): containerized setup for testing LightGBM's Dask interface locally and on Amazon ECS
 * [pkgnet](https://github.com/uptake/pkgnet): R package for analyzing an R package's dependencies
 * [pydistcheck](https://github.com/jameslamb/pydistcheck): linter that finds portability issues in Python package distributions (wheels and sdists)
 * [uptasticsearch](https://github.com/uptake/uptasticsearch): an R data frame client for Elasticsearch
 
 #### ✋ some other open source stuff I've contributed on in the past
 
-* [hamilton](https://github.com/stitchfix/hamilton): a "micro-framework" for feature engineering in Python
-* [prefect](https://github.com/PrefectHQ/prefect): a workflow management thing in Python that plays nicely with Dask
-* [xgboost](https://github.com/dmlc/xgboost): another gradient boosting machine
+* [hamilton](https://github.com/stitchfix/hamilton/pulls?q=is%3Apr+author%3Ajameslamb+is%3Aclosed): a "micro-framework" for feature engineering in Python
+* [prefect](https://github.com/PrefectHQ/prefect/pulls?q=is%3Apr+author%3Ajameslamb+is%3Aclosed): a workflow management thing in Python that plays nicely with Dask
+* [xgboost](https://github.com/dmlc/xgboost/pulls?q=is%3Apr+author%3Ajameslamb+is%3Aclosed): another gradient boosting machine
 
 ### 😊 open source contributions I'm proud of
 
 <details><summary>click for details</summary>
 
-The pull requests below were chosen to showcase the types of software work I've done. This list is not exhaustive.
+The pull requests and none-code contributions below were chosen to showcase the types of software work I've done. This list is not exhaustive.
 
 #### Features
 
+* replacing LightGBM's `setup.py` with `scikit-build-core` for PEP 517/518 compatibility: https://github.com/microsoft/LightGBM/pull/5759
 * adding `Webhook` storage to `prefect`: https://github.com/PrefectHQ/prefect/pull/3000
 * adding `autoconf`-based builds of LightGBM's R package: https://github.com/microsoft/LightGBM/pull/3188
 * making `snowflake-connector-python` compatible with `pyjwt` 1.x and 2.x: https://github.com/snowflakedb/snowflake-connector-python/pull/604
@@ -60,6 +61,7 @@ The pull requests below were chosen to showcase the types of software work I've 
 
 #### Infrastructure / CI
 
+* switching LightGBM's Python package jobs to `manylinux_2_28`: https://github.com/microsoft/LightGBM/pull/5580
 * automatically publish `prefect-saturn` to PyPI when a new release is created: https://github.com/saturncloud/prefect-saturn/pull/7
 * moving LightGBM CI jobs from Travis to GitHub Actions:
     - https://github.com/microsoft/LightGBM/pull/3745
@@ -74,16 +76,16 @@ The pull requests below were chosen to showcase the types of software work I've 
 
 #### 💰 things I do for money
 
-* machine learning engineer at [SpotHero](https://spothero.com/)
+* staff machine learning engineer at [SpotHero](https://spothero.com/)
 * adjunct instructor at Marquette University, where I teach "Intro to R Programming"
 
 #### :computer: conference talks
 
-I've given talks on Dask, LightGBM, R, and other random stuff. For a full list and links to videos, see https://github.com/jameslamb/talks#gallery.
+I've given talks on Dask, LightGBM, R, Python packaging, and other random stuff. For a full list and links to videos, see https://github.com/jameslamb/talks#gallery.
 
 #### :microphone: talk to me!
 
-My DMs are open if you want to talk about open source, data science careers, *Jersey Shore*, or anything else.
+My DMs are open if you want to talk about open source, data science careers, *Bravo shows*, or anything else.
 
 * :bird: Twitter: https://twitter.com/_jameslamb
 * :link: LinkedIn: https://www.linkedin.com/in/jameslamb1/
