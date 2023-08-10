@@ -29,11 +29,14 @@ The pull requests and none-code contributions below were chosen to showcase the 
 #### Features
 
 * replacing LightGBM's `setup.py` with `scikit-build-core` for PEP 517/518 compatibility: https://github.com/microsoft/LightGBM/pull/5759
+* upstreaming `dask-lightgbm` into LightGBM and guiding community discussion with Dask, XGBoost maintainers
+    - https://github.com/dask/community/issues/104
+    - https://github.com/microsoft/LightGBM/pull/3515
 * adding `Webhook` storage to `prefect`: https://github.com/PrefectHQ/prefect/pull/3000
 * adding `autoconf`-based builds of LightGBM's R package: https://github.com/microsoft/LightGBM/pull/3188
 * making `snowflake-connector-python` compatible with `pyjwt` 1.x and 2.x: https://github.com/snowflakedb/snowflake-connector-python/pull/604
 * allow tight control over ports in LightGBM distributed traiining with Dask: https://github.com/microsoft/LightGBM/pull/3994
-* cut compiled size of `{lightgbm}` by ignored CLI-only objects: https://github.com/microsoft/LightGBM/pull/3566
+* cut compiled size of `{lightgbm}` by ignoring CLI-only objects: https://github.com/microsoft/LightGBM/pull/3566
 * allow use of multiple image pull secrets in `prefect` kubernetes agent: https://github.com/PrefectHQ/prefect/pull/3596
 * replace single-shot HTTP requests with `httr::RETRY()` in various R packages
     - project I led at Chi R Collab 2020: https://github.com/chircollab/chircollab20/issues/1
@@ -48,6 +51,7 @@ The pull requests and none-code contributions below were chosen to showcase the 
 
 #### Bug Fixes
 
+* detecting debug symbols in `pandas` 2.0 wheels: https://github.com/pandas-dev/pandas/issues/51900
 * prevent `conda` from "downgrading" Python from CPython to PyPy, while also reducing the risk of a subtle networking error made worse by unpredictability in when Dask garbage collects objects (https://github.com/microsoft/LightGBM/pull/5510)
 * create a reproducible example for `lightgbm` loading failing with `GLIBCXX` compatibility errors: https://github.com/microsoft/LightGBM/issues/5106#issuecomment-1121925896
 * fix `jupyter_server` conda-forge feedstock recipe to prevent broken environments: https://github.com/conda-forge/jupyter_server-feedstock/pull/84
