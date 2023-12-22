@@ -80,7 +80,7 @@ The pull requests and none-code contributions below were chosen to showcase the 
 
 #### 💰 things I do for money
 
-* Sr. Software Engineer at NVIDIA, working on RAPIDS
+* Sr. Software Engineer at NVIDIA, working on RAPIDS (https://github.com/rapidsai)
 * adjunct instructor at Marquette University, where I teach "Intro to R Programming"
 
 #### :computer: conference talks
