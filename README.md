@@ -11,7 +11,7 @@ I'm James, an engineer / data scientist from Chicago. My time on GitHub is mostl
 * [LightGBM](https://github.com/microsoft/LightGBM): a lightweight gradient boosting machine
 * [lightgbm-dask-testing](https://github.com/jameslamb/lightgbm-dask-testing): containerized setup for testing LightGBM's Dask interface locally and on Amazon ECS
 * [pkgnet](https://github.com/uptake/pkgnet): R package for analyzing an R package's dependencies
-* [pydistcheck](https://github.com/jameslamb/pydistcheck): linter that finds portability issues in Python package distributions (wheels and sdists)
+* [pydistcheck](https://github.com/jameslamb/pydistcheck): linter that finds portability issues in Python package distributions (wheels, sdists, and conda packages)
 * [uptasticsearch](https://github.com/uptake/uptasticsearch): an R data frame client for Elasticsearch
 
 #### ✋ some other open source stuff I've contributed on in the past
@@ -28,6 +28,12 @@ The pull requests and none-code contributions below were chosen to showcase the 
 
 #### Features
 
+* adapting `lightgbm` and `xgboost` to `scikit-learn` 1.6:
+    - https://github.com/microsoft/LightGBM/pull/6651
+    - https://github.com/microsoft/LightGBM/pull/6733
+    - https://github.com/microsoft/LightGBM/pull/6718
+    - https://github.com/dmlc/xgboost/pull/11021
+* setting up `conda` packages for `legate-boost`, `legate-dataframe`, and `legate-raft`: https://github.com/rapidsai/legate-boost/issues/115
 * replacing LightGBM's `setup.py` with `scikit-build-core` for PEP 517/518 compatibility: https://github.com/microsoft/LightGBM/pull/5759
 * upstreaming `dask-lightgbm` into LightGBM and guiding community discussion with Dask, XGBoost maintainers
     - https://github.com/dask/community/issues/104
@@ -51,6 +57,11 @@ The pull requests and none-code contributions below were chosen to showcase the 
 
 #### Bug Fixes
 
+* fixing OpenMP conflicts in `lightgbm`:
+    - https://github.com/microsoft/LightGBM/issues/6595#issuecomment-2351398026
+    - https://github.com/microsoft/LightGBM/pull/6629
+    - https://github.com/microsoft/LightGBM/pull/6489
+    - https://github.com/microsoft/LightGBM/pull/6391
 * detecting debug symbols in `pandas` 2.0 wheels: https://github.com/pandas-dev/pandas/issues/51900
 * prevent `conda` from "downgrading" Python from CPython to PyPy, while also reducing the risk of a subtle networking error made worse by unpredictability in when Dask garbage collects objects (https://github.com/microsoft/LightGBM/pull/5510)
 * create a reproducible example for `lightgbm` loading failing with `GLIBCXX` compatibility errors: https://github.com/microsoft/LightGBM/issues/5106#issuecomment-1121925896
@@ -65,6 +76,12 @@ The pull requests and none-code contributions below were chosen to showcase the 
 
 #### Infrastructure / CI
 
+* helping with various migrations for all of the RAPIDS libraries:
+    - updating to newer `fmt` / `spdlog`: https://github.com/rapidsai/build-planning/issues/56
+    - Dropping Python 3.9: https://github.com/rapidsai/build-planning/issues/88
+    - CUDA 12.5: https://github.com/rapidsai/build-planning/issues/73
+    - Adding Python 3.12: https://github.com/rapidsai/build-planning/issues/40
+    - Adding Python 3.11: https://github.com/rapidsai/build-planning/issues/3
 * switching LightGBM's Python package jobs to `manylinux_2_28`: https://github.com/microsoft/LightGBM/pull/5580
 * automatically publish `prefect-saturn` to PyPI when a new release is created: https://github.com/saturncloud/prefect-saturn/pull/7
 * moving LightGBM CI jobs from Travis to GitHub Actions:
@@ -93,4 +110,4 @@ My DMs are open if you want to talk about open source, data science careers, *Br
 
 * :bird: Twitter: https://twitter.com/_jameslamb
 * :link: LinkedIn: https://www.linkedin.com/in/jameslamb1/
-* 🐘 Mastodon: https://hachyderm.io/@_jameslamb
+* 🦋 Bluesky: https://bsky.app/profile/jameslamb.bsky.social
