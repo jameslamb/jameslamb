@@ -108,6 +108,5 @@ I've given talks on Dask, LightGBM, R, Python packaging, and other random stuff.
 
 My DMs are open if you want to talk about open source, data science careers, *Bravo shows*, or anything else.
 
-* :bird: Twitter: https://twitter.com/_jameslamb
 * :link: LinkedIn: https://www.linkedin.com/in/jameslamb1/
 * 🦋 Bluesky: https://bsky.app/profile/jameslamb.bsky.social
