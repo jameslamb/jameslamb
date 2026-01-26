@@ -57,6 +57,7 @@ The pull requests and none-code contributions below were chosen to showcase the 
 
 #### Bug Fixes
 
+* fixing `dtype` setting and tests across `predict()` calls in `lightgbm`, required deep investigation (https://github.com/microsoft/LightGBM/pull/7140#discussion_r2725023963)
 * fixing OpenMP conflicts in `lightgbm`:
     - https://github.com/microsoft/LightGBM/issues/6595#issuecomment-2351398026
     - https://github.com/microsoft/LightGBM/pull/6629
