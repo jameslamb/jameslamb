@@ -57,6 +57,10 @@ The pull requests and none-code contributions below were chosen to showcase the 
 
 #### Bug Fixes
 
+* diagnosing and fixing a `scikit-build-core` + CMake build issue whose root cause was "CPython bakes in information about which compiler it was built with, and now that's an absolute path"
+  - https://github.com/rapidsai/ci-imgs/issues/420
+  - https://github.com/rapidsai/ci-imgs/pull/421
+  - https://github.com/python/cpython/issues/151547
 * fixing `dtype` setting and tests across `predict()` calls in `lightgbm`, required deep investigation (https://github.com/microsoft/LightGBM/pull/7140#discussion_r2725023963)
 * fixing OpenMP conflicts in `lightgbm`:
     - https://github.com/microsoft/LightGBM/issues/6595#issuecomment-2351398026
