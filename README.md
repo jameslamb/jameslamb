@@ -57,6 +57,7 @@ The pull requests and none-code contributions below were chosen to showcase the 
 
 #### Bug Fixes
 
+* diagnosing and fixing a Python Limited API compatibility issue (https://github.com/rapidsai/ucxx/pull/724)
 * diagnosing and fixing a `scikit-build-core` + CMake build issue whose root cause was "CPython bakes in information about which compiler it was built with, and now that's an absolute path"
   - https://github.com/rapidsai/ci-imgs/issues/420
   - https://github.com/rapidsai/ci-imgs/pull/421
